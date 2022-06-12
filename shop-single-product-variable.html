@@ -50,7 +50,7 @@
           </div>
           <div class="header-top-action-area">
             <div class="info-link info-link-style2">
-              <a href="login-register.html"><i class="icon-envelope"></i> Newsletter</a>
+              <a href="login-register.html"><i class="fa-solid fa-envelope"></i> Newsletter</a>
             </div>
           </div>
         </div>
@@ -90,17 +90,108 @@
       </div>
     </div>
     <div class="header-middle">
-      <div class="header-resmobile d-block d-lg-none">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-4 col-sm-4 col-3">
-              <div class="header-action-area btn-action-menu">
-                <button class="btn-menu d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithSideMenu" aria-controls="offcanvasWithSideMenu">
-                  <i class="icon-menu"></i>
-                </button>
+        <div class="header-resmobile d-block d-lg-none">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-4 col-sm-4 col-3">
+                <div class="header-action-area btn-action-menu">
+                  <button class="btn-menu d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithSideMenu" aria-controls="offcanvasWithSideMenu">
+                    <i class="icon-menu"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4 col-6">
+                <div class="header-logo-area">
+                  <a href="index.html">
+                    <!-- <img class="logo-main" src="assets/img/logo.webp" alt="Logo" width="102" height="45"/>
+                    <img class="logo-light" src="assets/img/logo.webp" alt="Logo" width="102" height="45"/> -->
+                    <h2 class="logo">Grocery</h2>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-4 col-3">
+                <div class="header-middle-action-area">
+                  <div class="header-action-dropdown-acc header-action-dropdown-toggle">
+                    <span class="current-item"><i class="icon-user-following icons"></i></span>
+                    <ul class="info-dropdown info-dropdown-toggle">
+                      <li><a href="my-account.html">My Account</a></li>
+                      <li><a href="shop-checkout.html">Checkout</a></li>
+                      <li><a href="login-register.html">Sign Out</a></li>
+                    </ul>
+                  </div>
+                  <div class="header-action-cart header-minicart">
+                    <a class="btn-cart cart-icon" href="shop-cart.html">
+                      <span class="cart-count">2</span>
+                      <i class="fa-solid fa-bag-shopping"></i>
+                    </a>
+                    <div class="header-minicart-content">
+                      <div class="minicart-inner">
+                        <div class="minicart-list">
+                          <div class="minicart-item">
+                            <a class="thumb" href="shop-single-product.html">
+                              <img src="assets/img/shop/13.webp" alt="Image-HasTech" width="125" height="125">
+                              <span>Sante Granola Choco</span>
+                              <span class="quantity-number">1x</span>
+                            </a>
+                            <p class="quantity-price">$40.90</p>
+                            <p class="quantity-dimension">Size: S</p>
+                            <button class="minicart-remove" type="button">×</button>
+                          </div>
+                          <div class="minicart-item">
+                            <a class="thumb" href="shop-single-product.html">
+                              <img src="assets/img/shop/14.webp" alt="Image-HasTech" width="125" height="125">
+                              <span>Purple Grape Width</span>
+                              <span class="quantity-number">1x</span>
+                            </a>
+                            <p class="quantity-price">$44.10</p>
+                            <p class="quantity-dimension">Size: S</p>
+                            <button class="minicart-remove" type="button">×</button>
+                          </div>
+                        </div>
+                        <div class="minicart-total">
+                          <div class="minicart-price">
+                            <span>Subtotal</span>
+                            <span class="total">$85.00</span>
+                          </div>
+                          <div class="minicart-price">
+                            <span>Shipping</span>
+                            <span class="total">$7.00</span>
+                          </div>
+                          <div class="minicart-price">
+                            <span>Taxes</span>
+                            <span class="total">$85.00</span>
+                          </div>
+                          <div class="minicart-price minicart-subtotal">
+                            <span>Total</span>
+                            <span class="total">$92.00</span>
+                          </div>
+                        </div>
+                        <div class="minicart-buttons">
+                          <a class="cart-button" href="shop-checkout.html">Checkout</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="header-search-box">
+                  <form action="#" method="post">
+                    <div class="form-input-group">
+                      <input type="text" id="search" placeholder="Search our catalog">
+                      <button type="submit" class="btn-src">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
-            <div class="col-md-4 col-sm-4 col-6">
+          </div>
+        </div>
+        <div class="container d-none d-lg-block">
+          <div class="row align-items-center">
+            <div class="col-3 col-xl-3 col-lg-2">
               <div class="header-logo-area">
                 <a href="index.html">
                   <!-- <img class="logo-main" src="assets/img/logo.webp" alt="Logo" width="102" height="45"/>
@@ -109,174 +200,84 @@
                 </a>
               </div>
             </div>
-            <div class="col-md-4 col-sm-4 col-3">
-              <div class="header-middle-action-area">
-                <div class="header-action-dropdown-acc header-action-dropdown-toggle">
-                  <span class="current-item"><i class="icon-user-following icons"></i></span>
-                  <ul class="info-dropdown info-dropdown-toggle">
-                    <li><a href="my-account.html">My Account</a></li>
-                    <li><a href="shop-checkout.html">Checkout</a></li>
-                    <li><a href="login-register.html">Sign Out</a></li>
-                  </ul>
+            <div class="col-9 col-xl-9 col-lg-10">
+              <div class="header-middle-right">
+                <div class="header-action-phone">
+                  <div class="icon">
+                    <img src="assets/img/icons/phone.webp" alt="Icon" width="41" height="43">
+                  </div>
+                  <div class="phone">
+                    <span>need help?</span> <a href="tel:+00(9)3456789">+00 (9) 3456 789</a>
+                  </div>
                 </div>
-                <div class="header-action-cart header-minicart">
-                  <a class="btn-cart cart-icon" href="shop-cart.html">
-                    <span class="cart-count">2</span>
-                    <i class="icon-handbag icons"></i>
-                  </a>
-                  <div class="header-minicart-content">
-                    <div class="minicart-inner">
-                      <div class="minicart-list">
-                        <div class="minicart-item">
-                          <a class="thumb" href="shop-single-product.html">
-                            <img src="assets/img/shop/13.webp" alt="Image-HasTech" width="125" height="125">
-                            <span>Sante Granola Choco</span>
-                            <span class="quantity-number">1x</span>
-                          </a>
-                          <p class="quantity-price">$40.90</p>
-                          <p class="quantity-dimension">Size: S</p>
-                          <button class="minicart-remove" type="button">×</button>
-                        </div>
-                        <div class="minicart-item">
-                          <a class="thumb" href="shop-single-product.html">
-                            <img src="assets/img/shop/14.webp" alt="Image-HasTech" width="125" height="125">
-                            <span>Purple Grape Width</span>
-                            <span class="quantity-number">1x</span>
-                          </a>
-                          <p class="quantity-price">$44.10</p>
-                          <p class="quantity-dimension">Size: S</p>
-                          <button class="minicart-remove" type="button">×</button>
-                        </div>
-                      </div>
-                      <div class="minicart-total">
-                        <div class="minicart-price">
-                          <span>Subtotal</span>
-                          <span class="total">$85.00</span>
-                        </div>
-                        <div class="minicart-price">
-                          <span>Shipping</span>
-                          <span class="total">$7.00</span>
-                        </div>
-                        <div class="minicart-price">
-                          <span>Taxes</span>
-                          <span class="total">$85.00</span>
-                        </div>
-                        <div class="minicart-price minicart-subtotal">
-                          <span>Total</span>
-                          <span class="total">$92.00</span>
-                        </div>
-                      </div>
-                      <div class="minicart-buttons">
-                        <a class="cart-button" href="shop-checkout.html">Checkout</a>
-                      </div>
+                <div class="header-search-box">
+                  <form action="#" method="post">
+                    <div class="form-input-group">
+                      <input type="text" id="search2" placeholder="Search our catalog">
+                      <button type="submit" class="btn-src">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
                     </div>
+                  </form>
+                </div>
+                <div class="header-middle-action-area">
+                  <div class="header-action-wishlist">
+                    <a class="btn-wishlist" href="shop-wishlist.html">
+                      <span class="cart-count">0</span>
+                      <i class="fa-solid fa-heart"></i>
+                    </a>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-12">
-              <div class="header-search-box">
-                <form action="#" method="post">
-                  <div class="form-input-group">
-                    <input type="text" id="search" placeholder="Search our catalog">
-                    <button type="submit" class="btn-src">
-                      <i class="icon-magnifier"></i>
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container d-none d-lg-block">
-        <div class="row align-items-center">
-          <div class="col-3 col-xl-3 col-lg-2">
-            <div class="header-logo-area">
-              <a href="index.html">
-                <!-- <img class="logo-main" src="assets/img/logo.webp" alt="Logo" width="102" height="45"/>
-                <img class="logo-light" src="assets/img/logo.webp" alt="Logo" width="102" height="45"/> -->
-                <h2 class="logo">Grocery</h2>
-              </a>
-            </div>
-          </div>
-          <div class="col-9 col-xl-9 col-lg-10">
-            <div class="header-middle-right">
-              <div class="header-action-phone">
-                <div class="icon">
-                  <img src="assets/img/icons/phone.webp" alt="Icon" width="41" height="43">
-                </div>
-                <div class="phone">
-                  <span>need help?</span> <a href="tel:+00(9)3456789">+00 (9) 3456 789</a>
-                </div>
-              </div>
-              <div class="header-search-box">
-                <form action="#" method="post">
-                  <div class="form-input-group">
-                    <input type="text" id="search2" placeholder="Search our catalog">
-                    <button type="submit" class="btn-src">
-                      <i class="icon-magnifier"></i>
-                    </button>
-                  </div>
-                </form>
-              </div>
-              <div class="header-middle-action-area">
-                <div class="header-action-wishlist">
-                  <a class="btn-wishlist" href="shop-wishlist.html">
-                    <span class="cart-count">0</span>
-                    <i class="fa-solid fa-heart"></i>
-                  </a>
-                </div>
-                <div class="header-action-cart header-minicart">
-                  <a class="btn-cart cart-icon" href="shop-cart.html">
-                    <span class="cart-count">2</span>
-                    <i class="fa-solid fa-bag-shopping"></i>
-                  </a>
-                  <span class="cart-amount">$91.10</span>
-                  <div class="header-minicart-content">
-                    <div class="minicart-inner">
-                      <div class="minicart-list">
-                        <div class="minicart-item">
-                          <a class="thumb" href="shop-single-product.html">
-                            <img src="assets/img/shop/13.webp" alt="Image-HasTech" width="125" height="125">
-                            <span>Sante Granola Choco</span>
-                            <span class="quantity-number">1x</span>
-                          </a>
-                          <p class="quantity-price">$40.90</p>
-                          <p class="quantity-dimension">Size: S</p>
-                          <button class="minicart-remove" type="button">×</button>
+                  <div class="header-action-cart header-minicart">
+                    <a class="btn-cart cart-icon" href="shop-cart.html">
+                      <span class="cart-count">2</span>
+                      <i class="fa-solid fa-bag-shopping"></i>
+                    </a>
+                    <span class="cart-amount">$91.10</span>
+                    <div class="header-minicart-content">
+                      <div class="minicart-inner">
+                        <div class="minicart-list">
+                          <div class="minicart-item">
+                            <a class="thumb" href="shop-single-product.html">
+                              <img src="assets/img/shop/13.webp" alt="Image-HasTech" width="125" height="125">
+                              <span>Sante Granola Choco</span>
+                              <span class="quantity-number">1x</span>
+                            </a>
+                            <p class="quantity-price">$40.90</p>
+                            <p class="quantity-dimension">Size: S</p>
+                            <button class="minicart-remove" type="button">×</button>
+                          </div>
+                          <div class="minicart-item">
+                            <a class="thumb" href="shop-single-product.html">
+                              <img src="assets/img/shop/14.webp" alt="Image-HasTech" width="125" height="125">
+                              <span>Purple Grape Width</span>
+                              <span class="quantity-number">1x</span>
+                            </a>
+                            <p class="quantity-price">$44.10</p>
+                            <p class="quantity-dimension">Size: S</p>
+                            <button class="minicart-remove" type="button">×</button>
+                          </div>
                         </div>
-                        <div class="minicart-item">
-                          <a class="thumb" href="shop-single-product.html">
-                            <img src="assets/img/shop/14.webp" alt="Image-HasTech" width="125" height="125">
-                            <span>Purple Grape Width</span>
-                            <span class="quantity-number">1x</span>
-                          </a>
-                          <p class="quantity-price">$44.10</p>
-                          <p class="quantity-dimension">Size: S</p>
-                          <button class="minicart-remove" type="button">×</button>
+                        <div class="minicart-total">
+                          <div class="minicart-price">
+                            <span>Subtotal</span>
+                            <span class="total">$85.00</span>
+                          </div>
+                          <div class="minicart-price">
+                            <span>Shipping</span>
+                            <span class="total">$7.00</span>
+                          </div>
+                          <div class="minicart-price">
+                            <span>Taxes</span>
+                            <span class="total">$85.00</span>
+                          </div>
+                          <div class="minicart-price minicart-subtotal">
+                            <span>Total</span>
+                            <span class="total">$92.00</span>
+                          </div>
                         </div>
-                      </div>
-                      <div class="minicart-total">
-                        <div class="minicart-price">
-                          <span>Subtotal</span>
-                          <span class="total">$85.00</span>
+                        <div class="minicart-buttons">
+                          <a class="cart-button" href="shop-checkout.html">Checkout</a>
                         </div>
-                        <div class="minicart-price">
-                          <span>Shipping</span>
-                          <span class="total">$7.00</span>
-                        </div>
-                        <div class="minicart-price">
-                          <span>Taxes</span>
-                          <span class="total">$85.00</span>
-                        </div>
-                        <div class="minicart-price minicart-subtotal">
-                          <span>Total</span>
-                          <span class="total">$92.00</span>
-                        </div>
-                      </div>
-                      <div class="minicart-buttons">
-                        <a class="cart-button" href="shop-checkout.html">Checkout</a>
                       </div>
                     </div>
                   </div>
@@ -285,7 +286,6 @@
             </div>
           </div>
         </div>
-      </div>
     </div>
     <div class="header-area header-default sticky-header">
       <div class="container">
@@ -295,7 +295,7 @@
               <button class="menu-btn"><span>All Department</span></button>
               <ul class="vmenu-content vmenu-content-none">
                 <li class="menu-item">
-                  <a class="menu-item-title" href="shop.html">Home Decor<i class="icon-arrow-right"></i></a>
+                  <a class="menu-item-title" href="shop.html">Home Decor<i class="fa-solid fa-angle-right"></i></a>
                   <ul class="verticale-mega-menu column-two flex-wrap">
                     <li>
                       <a class="title" href="shop.html"><strong>Fresh Fruit</strong></a>
@@ -331,7 +331,7 @@
                   <!-- sub menu -->
                 </li>
                 <li class="menu-item">
-                  <a class="menu-item-title" href="shop.html">Fresh Food<i class="icon-arrow-right"></i></a>
+                  <a class="menu-item-title" href="shop.html">Fresh Food<i class="fa-solid fa-angle-right"></i></a>
                   <ul class="verticale-mega-menu column-two flex-wrap">
                     <li>
                       <a class="title" href="shop.html"><strong>Milk, Butter & Eggs</strong></a>
@@ -362,7 +362,7 @@
                   </ul>
                 </li>
                 <li class="menu-item">
-                  <a class="menu-item-title" href="shop.html">Kitchen & Dinning<i class="icon-arrow-right"></i></a>
+                  <a class="menu-item-title" href="shop.html">Kitchen & Dinning<i class="fa-solid fa-angle-right"></i></a>
                   <ul class="verticale-mega-menu column-two flex-wrap">
                     <li>
                       <a class="title" href="shop.html"><strong>Cabbages & Greens</strong></a>
@@ -493,8 +493,8 @@
         <div class="row align-items-center">
           <div class="col-lg-12 m-auto">
             <div class="page-title-content text-center">
-              <h2 class="title">Single Product</h2>
-              <div class="bread-crumbs"><a href="index.html">Home</a><span class="breadcrumb-sep"><i class="icon-arrow-right"></i></span><span>Single Product</span></div>
+              <h2 class="title">Product Variable</h2>
+              <div class="bread-crumbs"><a href="index.html">Home</a><span class="breadcrumb-sep"><i class="fa-solid fa-angle-right"></i></span><span>Product Variable</span></div>
             </div>
           </div>
         </div>
@@ -591,7 +591,7 @@
                 <span class="price">$59.42</span>
                 <span class="price-save">Save 9%</span>
               </div>
-              <h4 class="title">Sante Granola with chocolate</h4>
+              <h4 class="title">Product Variable</h4>
               <div class="comments-advices">
                 <div class="rating">
                   <span class="rating-color fa-solid fa-star"></span>
@@ -600,8 +600,8 @@
                   <span class="rating-color fa-solid fa-star"></span>
                   <span class="rating-color fa-solid fa-star"></span>
                 </div>
-                <a class="btn-comments" href="shop-single-product.html"><i class="fa-solid fa-comment"></i>Read reviews (1)</a>
-                <a class="btn-review" href="shop-single-product.html"><i class="fa-solid fa-pen-to-square"></i>Write a review</a>
+                <a class="btn-comments" href="shop-single-product.html"><i class="fa-solid fa-comment icons"></i>Read reviews (1)</a>
+                <a class="btn-review" href="shop-single-product.html"><i class="fa-solid fa-pen-to-square icon"></i>Write a review</a>
               </div>
               <p class="product-desc">The result? Cool, easy, chic looks with youthful elegance and unmistakable signature style. All the beautiful pieces are made in Italy and manufactured with the greatest attention. Now Fashion extends to a range of accessories including shoes, hats, belts and more!</p>
               <div class="product-variants">
@@ -620,7 +620,7 @@
                   <div class="pro-qty">
                     <input type="text" id="quantity1" title="Quantity" value="1" />
                   </div>
-                  <button class="btn btn-black"><i class="fa-solid fa-bag-shopping"></i> Add to cart</button>
+                  <button class="btn btn-black"><i class="fa-solid fa-bag-shopping icons"></i> Add to cart</button>
                 </div>
                 <div class="product-additional-info">
                   <a class="btn-wishlist" href="shop-wishlist.html"><i class="fa-solid fa-heart icons"></i>Add to wishlist</a>
@@ -631,7 +631,7 @@
                 <span>Share</span>
                 <a class="facebook" href="#/"><i class="fa-brands fa-facebook-f"></i></a>
                 <a class="twitter" href="#/"><i class="fa-brands fa-twitter"></i></a>
-                <a class="pinterest" href="#/"><i class="fa-brands fa-pinterest"></i></a>
+                <a class="pinterest" href="#/"><i class="fa-brands fa-pinterest-p"></i></a>
               </div>
               <div class="card-info-area">
                 <div class="card-item">
@@ -726,11 +726,11 @@
                       <h4 class="title">Customer Reviews</h4>
                       <div class="review-info">
                         <ul class="review-rating">
-                          <li><i class="fa-solid fa-star"></i>
-                          <li><i class="fa-solid fa-star"></i>
-                          <li><i class="fa-solid fa-star"></i>
-                          <li><i class="fa-solid fa-star"></i>
-                          <li><i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
                         </ul>
                         <span class="review-caption">Based on 1 review</span>
                         <span class="review-write-btn">Write a review</span>
@@ -791,11 +791,11 @@
                     <div class="review-content">
                       <div class="review-item">
                         <ul class="review-rating">
-                          <li><i class="fa-solid fa-star"></i>
-                          <li><i class="fa-solid fa-star"></i>
-                          <li><i class="fa-solid fa-star"></i>
-                          <li><i class="fa-solid fa-star"></i>
-                          <li><i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
                         </ul>
                         <h4 class="title">Cobus Bester</h4>
                         <h5 class="review-date"><span>Cobus Bester</span> on <span>Mar 03, 2021</span></h5>
@@ -843,10 +843,10 @@
                       </div>
                       <div class="product-info">
                         <div class="product-info-action">
-                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="icon-handbag icons"></i></button>
-                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="icon-heart icons"></i></button>
-                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="icon-shuffle icons"></i></button>
-                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="icon-magnifier icons"></i></button>
+                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="fa-solid fa-bag-shopping icons"></i></button>
+                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="fa-solid fa-heart icons"></i></button>
+                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="fa-solid fa-shuffle icons"></i></button>
+                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="fa-solid fa-magnifying-glass icons"></i></button>
                         </div>
                         <div class="prices">
                           <span class="price-old">$65.30</span>
@@ -878,10 +878,10 @@
                       </div>
                       <div class="product-info">
                         <div class="product-info-action">
-                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="icon-handbag icons"></i></button>
-                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="icon-heart icons"></i></button>
-                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="icon-shuffle icons"></i></button>
-                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="icon-magnifier icons"></i></button>
+                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="fa-solid fa-bag-shopping icons"></i></button>
+                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="fa-solid fa-heart icons"></i></button>
+                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="fa-solid fa-shuffle icons"></i></button>
+                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="fa-solid fa-magnifying-glass icons"></i></button>
                         </div>
                         <div class="prices">
                           <span class="price price-style2">$55.10</span>
@@ -912,10 +912,10 @@
                       </div>
                       <div class="product-info">
                         <div class="product-info-action">
-                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="icon-handbag icons"></i></button>
-                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="icon-heart icons"></i></button>
-                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="icon-shuffle icons"></i></button>
-                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="icon-magnifier icons"></i></button>
+                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="fa-solid fa-bag-shopping icons"></i></button>
+                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="fa-solid fa-heart icons"></i></button>
+                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="fa-solid fa-shuffle icons"></i></button>
+                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="fa-solid fa-magnifying-glass icons"></i></button>
                         </div>
                         <div class="prices">
                           <span class="price price-style2">$29.00</span>
@@ -946,10 +946,10 @@
                       </div>
                       <div class="product-info">
                         <div class="product-info-action">
-                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="icon-handbag icons"></i></button>
-                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="icon-heart icons"></i></button>
-                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="icon-shuffle icons"></i></button>
-                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="icon-magnifier icons"></i></button>
+                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="fa-solid fa-bag-shopping icons"></i></button>
+                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="fa-solid fa-heart icons"></i></button>
+                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="fa-solid fa-shuffle icons"></i></button>
+                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="fa-solid fa-magnifying-glass icons"></i></button>
                         </div>
                         <div class="prices">
                           <span class="price price-style2">$29.00</span>
@@ -980,10 +980,10 @@
                       </div>
                       <div class="product-info">
                         <div class="product-info-action">
-                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="icon-handbag icons"></i></button>
-                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="icon-heart icons"></i></button>
-                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="icon-shuffle icons"></i></button>
-                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="icon-magnifier icons"></i></button>
+                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="fa-solid fa-bag-shopping icons"></i></button>
+                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="fa-solid fa-heart icons"></i></button>
+                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="fa-solid fa-shuffle icons"></i></button>
+                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="fa-solid fa-magnifying-glass icons"></i></button>
                         </div>
                         <div class="prices">
                           <span class="price-old">$45.30</span>
@@ -1015,10 +1015,10 @@
                       </div>
                       <div class="product-info">
                         <div class="product-info-action">
-                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="icon-handbag icons"></i></button>
-                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="icon-heart icons"></i></button>
-                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="icon-shuffle icons"></i></button>
-                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="icon-magnifier icons"></i></button>
+                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="fa-solid fa-bag-shopping icons"></i></button>
+                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="fa-solid fa-heart icons"></i></button>
+                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="fa-solid fa-shuffle icons"></i></button>
+                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="fa-solid fa-magnifying-glass icons"></i></button>
                         </div>
                         <div class="prices">
                           <span class="price price-style2">$41.30</span>
@@ -1049,10 +1049,10 @@
                       </div>
                       <div class="product-info">
                         <div class="product-info-action">
-                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="icon-handbag icons"></i></button>
-                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="icon-heart icons"></i></button>
-                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="icon-shuffle icons"></i></button>
-                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="icon-magnifier icons"></i></button>
+                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="fa-solid fa-bag-shopping icons"></i></button>
+                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="fa-solid fa-heart icons"></i></button>
+                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="fa-solid fa-shuffle icons"></i></button>
+                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="fa-solid fa-magnifying-glass icons"></i></button>
                         </div>
                         <div class="prices">
                           <span class="price price-style2">$52.10</span>
@@ -1084,10 +1084,10 @@
                       </div>
                       <div class="product-info">
                         <div class="product-info-action">
-                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="icon-handbag icons"></i></button>
-                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="icon-heart icons"></i></button>
-                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="icon-shuffle icons"></i></button>
-                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="icon-magnifier icons"></i></button>
+                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="fa-solid fa-bag-shopping icons"></i></button>
+                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="fa-solid fa-heart icons"></i></button>
+                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="fa-solid fa-shuffle icons"></i></button>
+                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="fa-solid fa-magnifying-glass icons"></i></button>
                         </div>
                         <div class="prices">
                           <span class="price-old">$54.00</span>
@@ -1120,10 +1120,10 @@
                       </div>
                       <div class="product-info">
                         <div class="product-info-action">
-                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="icon-handbag icons"></i></button>
-                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="icon-heart icons"></i></button>
-                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="icon-shuffle icons"></i></button>
-                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="icon-magnifier icons"></i></button>
+                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="fa-solid fa-bag-shopping icons"></i></button>
+                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="fa-solid fa-heart icons"></i></button>
+                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="fa-solid fa-shuffle icons"></i></button>
+                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="fa-solid fa-magnifying-glass icons"></i></button>
                         </div>
                         <div class="prices">
                           <span class="price-old">$35.00</span>
@@ -1155,10 +1155,10 @@
                       </div>
                       <div class="product-info">
                         <div class="product-info-action">
-                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="icon-handbag icons"></i></button>
-                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="icon-heart icons"></i></button>
-                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="icon-shuffle icons"></i></button>
-                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="icon-magnifier icons"></i></button>
+                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="fa-solid fa-bag-shopping icons"></i></button>
+                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="fa-solid fa-heart icons"></i></button>
+                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="fa-solid fa-shuffle icons"></i></button>
+                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="fa-solid fa-magnifying-glass icons"></i></button>
                         </div>
                         <div class="prices">
                           <span class="price price-style2">$69.30</span>
@@ -1190,10 +1190,10 @@
                       </div>
                       <div class="product-info">
                         <div class="product-info-action">
-                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="icon-handbag icons"></i></button>
-                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="icon-heart icons"></i></button>
-                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="icon-shuffle icons"></i></button>
-                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="icon-magnifier icons"></i></button>
+                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="fa-solid fa-bag-shopping icons"></i></button>
+                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="fa-solid fa-heart icons"></i></button>
+                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="fa-solid fa-shuffle icons"></i></button>
+                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="fa-solid fa-magnifying-glass icons"></i></button>
                         </div>
                         <div class="prices">
                           <span class="price-old">$54.00</span>
@@ -1225,10 +1225,10 @@
                       </div>
                       <div class="product-info">
                         <div class="product-info-action">
-                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="icon-handbag icons"></i></button>
-                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="icon-heart icons"></i></button>
-                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="icon-shuffle icons"></i></button>
-                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="icon-magnifier icons"></i></button>
+                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="fa-solid fa-bag-shopping icons"></i></button>
+                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="fa-solid fa-heart icons"></i></button>
+                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="fa-solid fa-shuffle icons"></i></button>
+                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="fa-solid fa-magnifying-glass icons"></i></button>
                         </div>
                         <div class="prices">
                           <span class="price">$55.10</span>
@@ -1259,10 +1259,10 @@
                       </div>
                       <div class="product-info">
                         <div class="product-info-action">
-                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="icon-handbag icons"></i></button>
-                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="icon-heart icons"></i></button>
-                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="icon-shuffle icons"></i></button>
-                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="icon-magnifier icons"></i></button>
+                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="fa-solid fa-bag-shopping icons"></i></button>
+                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="fa-solid fa-heart icons"></i></button>
+                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="fa-solid fa-shuffle icons"></i></button>
+                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="fa-solid fa-magnifying-glass icons"></i></button>
                         </div>
                         <div class="prices">
                           <span class="price">$29.00</span>
@@ -1293,10 +1293,10 @@
                       </div>
                       <div class="product-info">
                         <div class="product-info-action">
-                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="icon-handbag icons"></i></button>
-                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="icon-heart icons"></i></button>
-                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="icon-shuffle icons"></i></button>
-                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="icon-magnifier icons"></i></button>
+                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="fa-solid fa-bag-shopping icons"></i></button>
+                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="fa-solid fa-heart icons"></i></button>
+                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="fa-solid fa-shuffle icons"></i></button>
+                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="fa-solid fa-magnifying-glass icons"></i></button>
                         </div>
                         <div class="prices">
                           <span class="price">$29.00</span>
@@ -1327,10 +1327,10 @@
                       </div>
                       <div class="product-info">
                         <div class="product-info-action">
-                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="icon-handbag icons"></i></button>
-                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="icon-heart icons"></i></button>
-                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="icon-shuffle icons"></i></button>
-                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="icon-magnifier icons"></i></button>
+                          <button class="action-bag" type="button" data-bs-toggle="modal" data-bs-target="#action-CartAddModal"> <i class="fa-solid fa-bag-shopping icons"></i></button>
+                          <button class="action-wishlist" type="button" data-bs-toggle="modal" data-bs-target="#action-WishlistModal"><i class="fa-solid fa-heart icons"></i></button>
+                          <button class="action-compare" type="button" data-bs-toggle="modal" data-bs-target="#action-CompareModal"><i class="fa-solid fa-shuffle icons"></i></button>
+                          <button class="action-quick-view" type="button" data-bs-toggle="modal" data-bs-target="#action-QuickViewModal"><i class="fa-solid fa-magnifying-glass icons"></i></button>
                         </div>
                         <div class="prices">
                           <span class="price-old">$45.30</span>
@@ -1505,106 +1505,106 @@
       </div>
     </div>
     <div class="footer-main">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-4">
-            <div class="widget-item">
-              <h4 class="widget-title">Contact Info</h4>
-              <h4 class="widget-title widget-collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#dividerId-5">Contact Info Us</h4>
-              <div id="dividerId-5" class="collapse widget-collapse-body">
-                <div class="widget-contact-info">
-                  <div class="contact-info-item mb-20 mb-sm-10">
-                    <div class="icon-box">
-                      <i class="fa-solid fa-house"></i>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-4">
+              <div class="widget-item">
+                <h4 class="widget-title">Contact Info</h4>
+                <h4 class="widget-title widget-collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#dividerId-5">Contact Info Us</h4>
+                <div id="dividerId-5" class="collapse widget-collapse-body">
+                  <div class="widget-contact-info">
+                    <div class="contact-info-item mb-20 mb-sm-10">
+                      <div class="icon-box">
+                        <i class="fa-solid fa-house"></i>
+                      </div>
+                      <span>45 Grand Central New York NY 1017 United State USA</span>
                     </div>
-                    <span>45 Grand Central New York NY 1017 United State USA</span>
-                  </div>
-                  <div class="contact-info-item">
-                    <div class="icon-box">
-                      <i class="fa-solid fa-envelope"></i>
+                    <div class="contact-info-item">
+                      <div class="icon-box">
+                        <i class="fa-solid fa-envelope"></i>
+                      </div>
+                      <span>Email: <a href="mailto://contact@domain.com">Contact@domain.com</a></span>
                     </div>
-                    <span>Email: <a href="mailto://contact@domain.com">Contact@domain.com</a></span>
-                  </div>
-                  <div class="contact-info-item">
-                    <div class="icon-box">
-                      <i class="fa-solid fa-phone"></i>
+                    <div class="contact-info-item">
+                      <div class="icon-box">
+                        <i class="fa-solid fa-phone"></i>
+                      </div>
+                      <span>Phone: <a href="tel://+0123456789">01: +00 (9) 123 3456 789</a></span>
                     </div>
-                    <span>Phone: <a href="tel://+0123456789">01: +00 (9) 123 3456 789</a></span>
-                  </div>
-                  <div class="contact-info-item">
-                    <div class="icon-box">
-                      <i class="fa-solid fa-print"></i>
+                    <div class="contact-info-item">
+                      <div class="icon-box">
+                        <i class="fa-solid fa-print"></i>
+                      </div>
+                      <span>Fax: +00 (9) 643 6543 898</span>
                     </div>
-                    <span>Fax: +00 (9) 643 6543 898</span>
-                  </div>
-                  <div class="contact-info-item">
-                    <div class="icon-box">
-                      <i class="fa-solid fa-calendar-days"></i>
+                    <div class="contact-info-item">
+                      <div class="icon-box">
+                        <i class="fa-solid fa-calendar-days"></i>
+                      </div>
+                      <span>Mon-Sat 9:00pm - 5:00pm Sun:Closed</span>
                     </div>
-                    <span>Mon-Sat 9:00pm - 5:00pm Sun:Closed</span>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-2">
-            <div class="widget-item">
-              <h4 class="widget-title">Information</h4>
-              <h4 class="widget-title widget-collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#dividerId-6">Information</h4>
-              <div id="dividerId-6" class="collapse widget-collapse-body">
-                <nav class="widget-menu-wrap">
-                  <ul class="nav-menu nav">
-                    <li><a href="index.html">Delivery</a></li>
-                    <li><a href="index.html">Legal Notice</a></li>
-                    <li><a href="about.html">About us</a></li>
-                    <li><a href="index.html">Secure payment</a></li>
-                    <li><a href="index.html">Sitemap</a></li>
-                    <li><a href="index.html">Stores</a></li>
-                    <li><a href="login-register.html">Login</a></li>
-                  </ul>
-                </nav>
+            <div class="col-lg-3 col-md-2">
+              <div class="widget-item">
+                <h4 class="widget-title">Information</h4>
+                <h4 class="widget-title widget-collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#dividerId-6">Information</h4>
+                <div id="dividerId-6" class="collapse widget-collapse-body">
+                  <nav class="widget-menu-wrap">
+                    <ul class="nav-menu nav">
+                      <li><a href="index.html">Delivery</a></li>
+                      <li><a href="index.html">Legal Notice</a></li>
+                      <li><a href="about.html">About us</a></li>
+                      <li><a href="index.html">Secure payment</a></li>
+                      <li><a href="index.html">Sitemap</a></li>
+                      <li><a href="index.html">Stores</a></li>
+                      <li><a href="login-register.html">Login</a></li>
+                    </ul>
+                  </nav>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-3">
-            <div class="widget-item">
-              <h4 class="widget-title">My Account</h4>
-              <h4 class="widget-title widget-collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#dividerId-7">My Account</h4>
-              <div id="dividerId-7" class="collapse widget-collapse-body">
-                <nav class="widget-menu-wrap">
-                  <ul class="nav-menu nav">
-                    <li><a href="index.html">Terms And Conditions Of Use</a></li>
-                    <li><a href="about.html">About us</a></li>
-                    <li><a href="index.html">Secure payment</a></li>
-                    <li><a href="index.html">Sitemap</a></li>
-                    <li><a href="index.html">Stores</a></li>
-                    <li><a href="login-register.html">Login</a></li>
-                    <li><a href="login-register.html">My account</a></li>
-                  </ul>
-                </nav>
+            <div class="col-lg-3 col-md-3">
+              <div class="widget-item">
+                <h4 class="widget-title">My Account</h4>
+                <h4 class="widget-title widget-collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#dividerId-7">My Account</h4>
+                <div id="dividerId-7" class="collapse widget-collapse-body">
+                  <nav class="widget-menu-wrap">
+                    <ul class="nav-menu nav">
+                      <li><a href="index.html">Terms And Conditions Of Use</a></li>
+                      <li><a href="about.html">About us</a></li>
+                      <li><a href="index.html">Secure payment</a></li>
+                      <li><a href="index.html">Sitemap</a></li>
+                      <li><a href="index.html">Stores</a></li>
+                      <li><a href="login-register.html">Login</a></li>
+                      <li><a href="login-register.html">My account</a></li>
+                    </ul>
+                  </nav>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-3">
-            <div class="widget-item">
-              <h4 class="widget-title">Products</h4>
-              <h4 class="widget-title widget-collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#dividerId-8">Products</h4>
-              <div id="dividerId-8" class="collapse widget-collapse-body">
-                <nav class="widget-menu-wrap">
-                  <ul class="nav-menu nav">
-                    <li><a href="index.html">Delivery</a></li>
-                    <li><a href="index.html">Legal Notice</a></li>
-                    <li><a href="index.html">Secure payment</a></li>
-                    <li><a href="index.html">Prices drop</a></li>
-                    <li><a href="index.html">New products</a></li>
-                    <li><a href="index.html">Best sales</a></li>
-                  </ul>
-                </nav>
+            <div class="col-lg-3 col-md-3">
+              <div class="widget-item">
+                <h4 class="widget-title">Products</h4>
+                <h4 class="widget-title widget-collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#dividerId-8">Products</h4>
+                <div id="dividerId-8" class="collapse widget-collapse-body">
+                  <nav class="widget-menu-wrap">
+                    <ul class="nav-menu nav">
+                      <li><a href="index.html">Delivery</a></li>
+                      <li><a href="index.html">Legal Notice</a></li>
+                      <li><a href="index.html">Secure payment</a></li>
+                      <li><a href="index.html">Prices drop</a></li>
+                      <li><a href="index.html">New products</a></li>
+                      <li><a href="index.html">Best sales</a></li>
+                    </ul>
+                  </nav>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
     </div>
     <div class="footer-bottom">
       <div class="container">
@@ -1708,8 +1708,8 @@
                         <span class="rating-color fa-solid fa-star"></span>
                         <span class="rating-color fa-solid fa-star"></span>
                       </div>
-                      <a class="btn-comments" href="shop-single-product.html"><i class="fa-solid fa-comment"></i>Read reviews (1)</a>
-                      <a class="btn-review" href="shop-single-product.html"><i class="fa-solid fa-file-pen"></i>Write a review</a>
+                      <a class="btn-comments" href="shop-single-product.html"><i class="fa-solid fa-comment icons"></i>Read reviews (1)</a>
+                      <a class="btn-review" href="shop-single-product.html"><i class="fa-solid fa-pen-to-square icon"></i>Write a review</a>
                     </div>
                     <p class="product-desc">The result? Cool, easy, chic looks with youthful elegance and unmistakable signature style. All the beautiful pieces are made in Italy and manufactured with the greatest attention. Now Fashion extends to a range of accessories including shoes, hats, belts and more!</p>
                     <div class="product-variants">
@@ -1728,11 +1728,11 @@
                         <div class="pro-qty">
                           <input type="text" id="quantity2" title="Quantity" value="1" />
                         </div>
-                        <button class="btn btn-black"><i class="fa-solid fa-bag-shopping"></i></i> Add to cart</button>
+                        <button class="btn btn-black"><i class="fa-solid fa-bag-shopping icons"></i> Add to cart</button>
                       </div>
                       <div class="product-additional-info">
-                        <a class="btn-wishlist" href="shop-wishlist.html"><i class="icon-heart icons"></i>Add to wishlist</a>
-                        <a class="btn-wishlist" href="shop-compare.html"><i class="icon-shuffle icons"></i>Add to compare</a>
+                        <a class="btn-wishlist" href="shop-wishlist.html"><i class="fa-solid fa-heart icons"></i>Add to wishlist</a>
+                        <a class="btn-wishlist" href="shop-compare.html"><i class="fa-solid fa-shuffle icons"></i>Add to compare</a>
                       </div>
                     </div>
                     <div class="widget-social-icons">
@@ -1849,7 +1849,7 @@
           <a href="shop-compare.html"><i class="fa-solid fa-layer-group"></i>  My Compare (0)</a>
         </div>
         <div class="info-link info-link-style2">
-          <a href="login-register.html"><i class="fa-solid fa-envelope"></i>  Wishlist (0)</a>
+          <a href="login-register.html"><i class="fa-solid fa-heart icons"></i>  Wishlist (0)</a>
         </div>
       </div>
     </div>

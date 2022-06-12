@@ -900,7 +900,7 @@ table p {
 }
 .error-content .error-search form button i {
   color: #777;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 20px;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -6028,6 +6028,11 @@ table p {
   position: relative;
   z-index: 1;
 }
+
+.testimonial-single .client-thumb img{
+  border-radius: 50%;
+}
+
 .testimonial-single .client-content p {
   color: #fff;
   font-size: 22px;
@@ -9970,7 +9975,7 @@ table p {
 }
 .widget-custom-menu ul .has-sub a:before {
   color: #656565;
-  content: "";
+  content: "\f107";
   font-family: "Font Awesome 6 Free";
   position: absolute;
   right: 0;
