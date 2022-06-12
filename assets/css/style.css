@@ -8166,8 +8166,9 @@ table p {
 }
 .single-product-offer-slider .single-product-offer-nav .swiper-button-prev:after,
 .single-product-offer-slider .single-product-offer-nav .swiper-button-next:after {
-  content: "";
+  content: "\f106";
   font-family: "Font Awesome 6 Free";
+  font-weight: 600;
   font-size: 20px;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -8184,7 +8185,7 @@ table p {
   top: auto;
 }
 .single-product-offer-slider .single-product-offer-nav .swiper-button-next:after {
-  content: "";
+  content: "\f107";
 }
 .single-product-offer-slider .single-product-offer-nav-slider .swiper-wrapper .swiper-slide {
   border: 2px solid transparent;
@@ -8582,7 +8583,7 @@ table p {
 .single-product-info .btn-wishlist .icons {
   margin-right: 10px;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600;
   width: 39px;
   height: 39px;
   background: #78bc16;
@@ -9375,8 +9376,9 @@ table p {
 }
 .single-product-nav .swiper-button-prev:after,
 .single-product-nav .swiper-button-next:after {
-  content: "";
+  content: "\f106";
   font-family: "Font Awesome 6 Free";
+  font-weight: 600;
   font-size: 20px;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -9413,7 +9415,7 @@ table p {
   }
 }
 .single-product-nav .swiper-button-next:after {
-  content: "";
+  content: "\f107";
 }
 
 .single-product-nav-slider .swiper-wrapper .swiper-slide {

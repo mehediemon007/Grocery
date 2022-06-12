@@ -671,8 +671,8 @@
   
     // Product Qty
     var proQty = $(".pro-qty");
-    proQty.append('<a href="#" class="inc qty-btn"><i class="icon-arrow-up"></i></a>');
-    proQty.append('<a href="#" class= "dec qty-btn"><i class="icon-arrow-down"></i></a>');
+    proQty.append('<a href="#" class="inc qty-btn"><i class="fa-solid fa-angle-up"></i></a>');
+    proQty.append('<a href="#" class= "dec qty-btn"><i class="fa-solid fa-angle-down"></i></a>');
     $('.qty-btn').on('click', function(e) {
       e.preventDefault();
       var $button = $(this);
