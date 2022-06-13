@@ -3962,14 +3962,30 @@ table p {
 }
 @media only screen and (max-width: 991px) {
   .header-middle .header-resmobile .header-logo-area {
+    top: 0;
+    right: 0;
     text-align: center;
   }
-}
-@media only screen and (max-width: 991px) {
+
+  .logo{
+    font-size: 35px !important;
+    margin-bottom: 0;
+    line-height: 1;
+  }
+
   .header-middle .header-resmobile .header-logo-area img {
     max-width: 168px;
   }
+
 }
+@media only screen and (max-width: 416px) {
+  
+  .header-middle .header-resmobile .header-logo-area {
+    text-align: left;
+  }
+
+}
+
 @media only screen and (max-width: 767px) {
   .header-middle .header-resmobile .header-logo-area img {
     max-width: 130px;
