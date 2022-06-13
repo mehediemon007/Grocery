@@ -4858,10 +4858,10 @@ table p {
 
 .offcanvas-menu a:not(:only-child):after {
   color: #333;
-  content: "";
+  content: "\f107";
   font-family: "Font Awesome 6 Free";
   font-size: 11px;
-  font-weight: 400;
+  font-weight: 600;
   position: absolute;
   right: 20px;
   top: 9px;
@@ -12108,8 +12108,9 @@ table p {
 }
 .footer-area .widget-title.widget-collapsed-title:before {
   font-family: "Font Awesome 6 Free";
+  font-weight: 600;
   font-size: 12px;
-  content: "";
+  content: "\f107";
   position: absolute;
   right: 0;
   height: 100%;
@@ -12123,8 +12124,9 @@ table p {
   -o-transition: all 0.3s ease-in-out;
 }
 .footer-area .widget-title.widget-collapsed-title:not(.collapsed):before {
-  content: "";
+  content: "\f106";
   font-family: "Font Awesome 6 Free";
+  font-weight: 600;
 }
 .footer-area .widget-title.widget-collapsed-title:hover {
   color: #78bc16;
